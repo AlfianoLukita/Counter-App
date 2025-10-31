@@ -16,8 +16,8 @@ Simple counter web app made with HTML, CSS, and JavaScript.
 - JavaScript
 
 ## 📷 Preview
-![screenshot-Dark-Theme](Preview/Ss1.jpg)
-![screenshot-Light-Theme](Preview/Ss2.jpg)
+![screenshot-Dark-Theme](Ss1.jpg)
+![screenshot-Light-Theme](Ss2.jpg)
 
 ## 📦 How to Run
 Just open `index.html` in your browser.
