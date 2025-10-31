@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Counter</title>
+  <link rel="stylesheet" href="Style.css"/>
+</head>
+<body>
+  <header>
+    <button id="No"class="Theme-Light" onclick="LightTheme()"></button>
+    <button id="No"class="Theme-Dark"onclick="DarkTheme()"></button>
+    <h3> Counter </h3>
+  </header>
+  <div>
+    <p id="counter">0</p>
+  </div>
+  <section class="Button-Func">
+  
+    
+    <button class="minus" onclick="minus()">-</button>
+    <button class="plus" onclick="plus()">+</button>
+    <button id="No"class="Reset" onclick="reset()">Reset</button>
+    
+  </section>
+  <div>
+    <h3> Config </h3>
+  </div>
+  <section class="Button-config">
+    <button onclick="Subtract5()">-5</button>
+    <button onclick="Subtract()">-1</button>
+    <button onclick="Add()">+1</button>
+    <button onclick="Add5()">+5</button>
+    <h4> Step </h4>
+    <p id="Config"> 1 </p>
+  </section>
+</body>
+<script src="Script.js"></script>
+</html>
