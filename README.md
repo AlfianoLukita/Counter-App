@@ -21,7 +21,10 @@ Simple counter web app made with HTML, CSS, and JavaScript.
 ![screenshot-Light-Theme](preview/ss2.jpg)
 
 ## 📦 How to Run
-Just open `index.html`.
+Just open `index.html`
+
+## Live Preview
+https://alfianolukita.github.io/Counter-App
 
 ## Author
 AlfianoLukita 
