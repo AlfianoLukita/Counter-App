@@ -5,19 +5,16 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Counter</title>
-  <link rel="stylesheet" href="Style.css"/>
+  <link rel="stylesheet" href="style.css"/>
 </head>
 <body>
   <header>
     <button id="No"class="Theme-Light" onclick="LightTheme()"></button>
     <button id="No"class="Theme-Dark"onclick="DarkTheme()"></button>
     <h3> Counter </h3>
+    <p id="counter"> 0 </p>
   </header>
-  <div>
-    <p id="counter">0</p>
-  </div>
   <section class="Button-Func">
-  
     
     <button class="minus" onclick="minus()">-</button>
     <button class="plus" onclick="plus()">+</button>
@@ -28,13 +25,20 @@
     <h3> Config </h3>
   </div>
   <section class="Button-config">
+    <button onclick="Subtract10()">-10</button>
     <button onclick="Subtract5()">-5</button>
     <button onclick="Subtract()">-1</button>
     <button onclick="Add()">+1</button>
     <button onclick="Add5()">+5</button>
+    <button onclick="Add10()">+10</button>
     <h4> Step </h4>
     <p id="Config"> 1 </p>
   </section>
+  <div class="A-Config">
+      <h5> Sound Click </h5>
+      <input id="SFX"type="checkbox" checked="true"/>
+    </div>
 </body>
-<script src="Script.js"></script>
+<script src="script/main.js"></script>
+<script src="script/basic.js"></script>
 </html>

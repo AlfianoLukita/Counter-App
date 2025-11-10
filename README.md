@@ -5,10 +5,11 @@ Simple counter web app made with HTML, CSS, and JavaScript.
 ## 🚀 Features
 - Increase and decrease counter
 - Dark/Light Theme
-- Quick add buttons (+5)
-- Quick subtract buttons (−5)
+- Quick add buttons (+5 , +10)
+- Quick subtract buttons (-5 , -10)
 - Reset button
 - Visual indicator of added/subtracted value
+- Sound Click 
 
 ## 🛠️ Technologies
 - HTML
@@ -16,13 +17,15 @@ Simple counter web app made with HTML, CSS, and JavaScript.
 - JavaScript
 
 ## 📷 Preview
-![screenshot-Dark-Theme](Ss1.jpg)
-![screenshot-Light-Theme](Ss2.jpg)
+![screenshot-Dark-Theme](Preview/ss1.jpg)
+![screenshot-Light-Theme](Preview/ss2.jpg)
 
 ## 📦 How to Run
-Just open `index.html` in your browser.
+Just open `index.html`.
 
 ## Author
 AlfianoLukita 
 
-## Version V1.1.0
+## Version V1.2.0
+
+
